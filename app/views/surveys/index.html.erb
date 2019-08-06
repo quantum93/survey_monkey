@@ -3,7 +3,7 @@
 <% if @surveys.any? %>
   <ul>
     <% @surveys.each do |survey| %>
-      <%= link_to survey.title, survey_path(survey) %></li>
+      <%= link_to survey.title, survey_path(survey) %></li><br>
     <% end %>
   </ul>
 <% else %>

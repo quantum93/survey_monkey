@@ -47,7 +47,10 @@ As a survey designer, I want to let respondents choose "Other" for some question
 | Testing with Rspec and pass the shoulda-matchers first two test for survey and question table |
 | Let's make an update to routes.rb to include full CRUD routing for surveys: |
 | steps for Rails Controllers |
-|Make views with naming conventions |
+| Make views with naming conventions |
+| Make views for survey and questions |
+| Make a callback routine at models/survey.rb |
+
 
 
 ## Known Bugs
