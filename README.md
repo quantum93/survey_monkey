@@ -41,7 +41,8 @@ As a survey designer, I want to let respondents choose "Other" for some question
 | edit Gemfile for bundle including gem('pivotal_git_scripts')| bundle install |
 | Setting Up Rspec | bundle exec rails generate rspec:install |
 | Running the Rails Server | rails server | survey_monkey_development" does not exist |
-| 
+| setup database with rails and create table with class |
+|
 
 
 ## Known Bugs
