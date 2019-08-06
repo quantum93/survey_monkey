@@ -42,7 +42,8 @@ As a survey designer, I want to let respondents choose "Other" for some question
 | Setting Up Rspec | bundle exec rails generate rspec:install |
 | Running the Rails Server | rails server | survey_monkey_development" does not exist |
 | setup database with rails and create table with class |
-|
+| --> optional for practice ! Creating Database Entries Through the Console |  rails console |
+| Testing with Rspec and Shoulda Matchers | rspec |
 
 
 ## Known Bugs
