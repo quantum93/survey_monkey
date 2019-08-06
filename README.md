@@ -45,7 +45,8 @@ As a survey designer, I want to let respondents choose "Other" for some question
 | --> optional for practice ! Creating Database Entries Through the Console |  rails console |
 | Testing with Rspec and Shoulda Matchers | rspec |
 | Testing with Rspec and pass the shoulda-matchers first two test for survey and question table |
-| Let's make an update to routes.rb to include full CRUD routing for surveys: | 
+| Let's make an update to routes.rb to include full CRUD routing for surveys: |
+| steps for Rails Controllers |
 
 
 ## Known Bugs
