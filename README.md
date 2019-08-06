@@ -32,6 +32,7 @@ As a survey designer, I want to let respondents choose "Other" for some question
 * _Type 'bundle install' in terminal to load Gems (if you have capybara version incompatible issue with current version of ruby, try "/Users/[User Name]/.rubies/ruby-2.6.3/bin/bundle install" instead of "bundle install"_
 * _To run tests, type 'rspec' in terminal_
 * _postgres DB installation with sql script in project (if your Postgres DB is not starting at login, please execute "pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start" on terminal._
+* _To database backup and restore, please refer the page of Epicodus (https://www.learnhowtoprogram.com/ruby-and-rails/ruby-database-basics/backing-up-and-recreating-a-database)_
 
 ## Specs
 | Behavior      | Input         | Output |
@@ -50,7 +51,8 @@ As a survey designer, I want to let respondents choose "Other" for some question
 | Make views with naming conventions |
 | Make views for survey and questions |
 | Make a callback routine at models/survey.rb |
-
+| Make spec test for validation and flash message for user input |
+| Make a database backup |
 
 
 ## Known Bugs

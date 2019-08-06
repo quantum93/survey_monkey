@@ -13,6 +13,7 @@ class SurveysController < ApplicationController
   def create
     @survey = Survey.new(survey_params)
     if @survey.save
+      flash[:notice] = "Survey successfully created!"
       redirect_to surveys_path
     else
       render :new
@@ -21,6 +22,7 @@ class SurveysController < ApplicationController
 
   def edit
     @survey = Survey.find(params[:id])
+    flash[:notice] = "Survey successfully edited!"
     render :edit
   end
 
@@ -32,6 +34,7 @@ class SurveysController < ApplicationController
   def update
     @survey= Survey.find(params[:id])
     if @survey.update(survey_params)
+      flash[:notice] = "Survey successfully updated!"
       redirect_to surveys_path
     else
       render :edit
@@ -41,6 +44,7 @@ class SurveysController < ApplicationController
   def destroy
     @survey = Survey.find(params[:id])
     @survey.destroy
+    flash[:notice] = "Survey successfully destroyed!"
     redirect_to surveys_path
   end
 
