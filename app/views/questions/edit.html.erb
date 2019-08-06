@@ -2,6 +2,6 @@
 
 <%= form_for [@survey, @question] do |f| %>
   <%= f.label :answer %>
-  <%= f.text_area :answer %>
-  <p><%= f.submit %></p>
+  <%= f.text_area :answer %><br>
+  <button type="submit" name="commit" class="btn btn-danger">Add answer!</button>
 <% end %>
